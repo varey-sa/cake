@@ -39,7 +39,6 @@ class ArticlesTable extends Table
     {
         $validator
             ->notEmptyString('title')
-            ->minLength('title', 10)
             ->maxLength('title', 255)
 
             ->notEmptyString('body')

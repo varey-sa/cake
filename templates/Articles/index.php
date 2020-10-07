@@ -7,6 +7,8 @@
 ?>
 <h1>Articles</h1>
 <p><?= $this->Html->link("Add Article", ['action' => 'add']) ?></p>
+<p><?= $this->Html->link("Add Article", ['action' => 'add']) ?></p>
+<p><?= $this->Html->link("Add Article", ['action' => 'tags']) ?></p>
 <table>
     <tr>
         <th>Title</th>
